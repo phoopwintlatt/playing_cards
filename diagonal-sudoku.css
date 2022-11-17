@@ -1,0 +1,17 @@
+table.sudoku {
+  border: medium solid black;
+  border-collapse: collapse;
+}
+table.sudoku td {
+  border: thin solid rgb(146, 96, 96);
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+table.sudoku tr:nth-child(3n) {
+  border-bottom: medium solid black;
+}
+table.sudoku td:nth-child(3n) {
+  border-left: thick solid rgb(170, 0, 0);
+}/*# sourceMappingURL=diagonal-sudoku.css.map */
