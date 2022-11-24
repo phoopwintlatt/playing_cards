@@ -1,0 +1,37 @@
+@use "sass:math";
+@use "util";
+
+body{
+    margin: 0;
+}
+
+$letters: 15;
+
+div.cheerful-letters{
+    height: 100vh;
+    display: flex;
+    justify-content: center;//horizontally
+    align-items: center;//center vertically
+
+    & > span {
+        padding: 0.5em;
+        margin: 0.5em;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 200%;
+        // background-color: coral;
+        box-shadow: 0.25em 0.25em 0.5em black;// horizon vertical blur color
+    }
+
+    //math.random(from 0 to 255)
+    //for loop
+    @for $i from 1 through $letters {
+        & > span:nth-child(#{$i}){
+            background-color: rgb(math.random(256) - 1,math.random(256) - 1,math.random(256) - 1);
+            // transform: rotate(10deg);//positive deg means clockwise
+            transform: rotate(util.random(-15,-15));
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+}
+
+main {
+  margin: 20px;
+  display: inline-block;
+  border: medium solid black;
+  padding: 10px;
+}
+
+table.puzzel {
+  margin: auto;
+  border-collapse: collapse;
+}
+table.puzzel th, table.puzzel td {
+  width: 2em;
+  height: 2em;
+}
+table.puzzel th {
+  color: lightgrey;
+}
+table.puzzel td {
+  border: thin solid rgb(173, 172, 172);
+}
+table.puzzel .filled {
+  background-color: aquamarine;
+}
+table.puzzel .left {
+  border-left: thick solid black;
+}
+table.puzzel .top {
+  border-top: thick solid rgb(0, 0, 0);
+}
+table.puzzel tbody > tr:first-child > td {
+  border-top: thick solid rgb(0, 0, 0);
+}
+table.puzzel tbody > tr:last-child > td {
+  border-bottom: thick solid rgb(0, 0, 0);
+}
+table.puzzel tbody > tr > td:last-of-type {
+  border-right: thick solid rgb(0, 0, 0);
+}
+table.puzzel tbody > tr > td:first-of-type {
+  border-left: thick solid rgb(0, 0, 0);
+}/*# sourceMappingURL=aqua.css.map */

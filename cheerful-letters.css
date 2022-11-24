@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+div.cheerful-letters {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.cheerful-letters > span {
+  padding: 0.5em;
+  margin: 0.5em;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  box-shadow: 0.25em 0.25em 0.5em black;
+}
+div.cheerful-letters > span:nth-child(1) {
+  background-color: rgb(103, 6, 47);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(2) {
+  background-color: rgb(132, 224, 224);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(3) {
+  background-color: rgb(122, 140, 48);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(4) {
+  background-color: rgb(214, 10, 31);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(5) {
+  background-color: rgb(34, 127, 218);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(6) {
+  background-color: rgb(212, 40, 188);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(7) {
+  background-color: rgb(241, 68, 18);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(8) {
+  background-color: rgb(150, 185, 22);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(9) {
+  background-color: rgb(88, 194, 38);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(10) {
+  background-color: rgb(24, 10, 68);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(11) {
+  background-color: rgb(164, 217, 1);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(12) {
+  background-color: rgb(227, 59, 219);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(13) {
+  background-color: rgb(48, 73, 71);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(14) {
+  background-color: rgb(5, 16, 199);
+  transform: rotate(-15);
+}
+div.cheerful-letters > span:nth-child(15) {
+  background-color: rgb(1, 64, 235);
+  transform: rotate(-15);
+}/*# sourceMappingURL=cheerful-letters.css.map */

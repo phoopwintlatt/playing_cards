@@ -1,0 +1,10 @@
+@use "sass:math";
+
+@function random($min,$max){
+    @if $min > $max {
+        @error "Invalid arguments! $min must be less than $max."
+    }
+    @return math.random(($max - $min) + 1)+ $min - 1;
+}
+
+@debug "Random number: #{random(-15,-15)}";

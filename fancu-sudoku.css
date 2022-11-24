@@ -1,0 +1,269 @@
+@import "sudoku.css";
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+table.sudoku {
+  border-collapse: collapse;
+  margin: auto;
+  border: medium solid black;
+}
+table.sudoku td {
+  border: thin solid lightgray;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+table.sudoku td:nth-child(3n) {
+  border-right: medium solid black;
+}
+table.sudoku tr:nth-child(3n) {
+  border-bottom: medium solid black;
+}
+
+table.sudoku tr:nth-child(1) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(1) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(2) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(3) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(4) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(5) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(6) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(7) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(8) > td:nth-child(9) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(1) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(2) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(3) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(4) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(5) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(6) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(7) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(8) {
+  background-color: aqua;
+}
+table.sudoku tr:nth-child(9) > td:nth-child(9) {
+  background-color: aqua;
+}/*# sourceMappingURL=fancu-sudoku.css.map */
